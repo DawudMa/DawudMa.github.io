@@ -82,6 +82,10 @@
               </div>
             </li>
           </ul>
+          <h3 class="content-title">Open Source Programs</h3>
+          <ul v-for="(item, index) in opensources" :key="index">
+            <li class="text"><a style="color: #000;" :href="item.url">{{item.name}}</a></li><span class="op-descr">{{item.descr}}</span>
+          </ul>
           <h3 class="content-title">Call for Cooperation</h3>
           <ul v-for="(item, index) in cooperations" :key="index">
             <li class="text">{{item}}</li>

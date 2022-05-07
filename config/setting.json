@@ -50,6 +50,13 @@
             "Complex Network"
         ]
     },
+    "opensources": [
+        {
+            "name": "Academic-Homepage",
+            "descr": "A data-driven open source project that helps researchers quickly generate deploy and update their academic home pages.",
+            "url": "https://github.com/DawudMa/Academic-Homepage"
+        }
+    ],
     "datasets": [
         "Search-Engine based Tourism Demand Records (2011-)",
         "Long-term Tencent Location-based Services Records (2020-)",
@@ -63,7 +70,7 @@
     "interestes": [
         {
             "major": "Tourism Geography",
-            "keywords": "Spatiotempero Tourism Demand Modelling"
+            "keywords": "Tourism Demand Spatio-temporal Modelling"
         },
         {
             "major": "WebGIS",
@@ -139,6 +146,36 @@
             "period": "2019-2022",
             "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
             "no": "[Grant No. 2019QZKK1004]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK0401]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK1004]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK0401]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK1004]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK0401]",
             "role": "Involve"
         },
         {
