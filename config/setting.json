@@ -1,0 +1,188 @@
+{
+    "name": "MA Xuankai",
+    "bio_img": "https://i1.rgstatic.net/ii/profile.image/754136731615235-1556811616787_Q128/Ma-Xuankai.jpg",
+    "Email": "maxuankai20@mails.ucas.ac.cn",
+    "affiliation": "Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences",
+    "address": "No.818, Beijing Road, Urumqi, Xinjiang, China",
+    "major": "Human Geography",
+    "bio_descr": "MA Xuankai is currently pursuing a Ph.D. in Human Geography at the Chinese Academy of Sciences and a Special Research Assistant at the Chinese Academy of Sciences.<br>He has expertise in the dynamic monitoring of tourism demand based on geographic big data, spatial analysis, and modeling. He has developed software to construct population distribution models through long time series Tencent location big data sets and dynamically monitor population distribution over large areas using VIIRS nighttime remote sensing data with LBS data to provide fundamental support for large-scale monitoring of tourism behavior. He has published two peer-reviewed journal articles on tourism demand and population modeling, including one article in a Q1 journal and one paper in a Q2 journal. He is majoring in the direction of tourism information flow theoretical system research. He actively contributes to numerous national science research projects in spatiotemporal big data mining and analysis, WebGIS visualization development, GIS map service development, etc.",
+    "lab": [
+        {
+            "name": "Xinjiang Tourism Academy",
+            "logo": "img/lab_logo.png"
+        }
+    ],
+    "skills": {
+        "Program": [
+            "ArcGIS",
+            "QGIS",
+            "ENVI",
+            "Blender"
+        ],
+        "Coding": [
+            "Python",
+            "R",
+            "Javascript",
+            "Node.js"
+        ],
+        "Development Platform": [
+            "ArcGIS for Javascript",
+            "Cesium",
+            "kepler.gl",
+            "VUE",
+            "ElementUI"
+        ],
+        "Library": [
+            "ArcPy",
+            "GeoPandas",
+            "Pandas",
+            "NetworkX",
+            "PyG",
+            "DGL",
+            "sklearn",
+            "GDAL"
+        ],
+        "Methdology": [
+            "GD",
+            "GWR/GTWR",
+            "RF",
+            "GNN",
+            "Complex Network"
+        ]
+    },
+    "datasets": [
+        "Search-Engine based Tourism Demand Records (2011-)",
+        "Long-term Tencent Location-based Services Records (2020-)",
+        "Chinese Tourism Demand Keywords Database (2022-)"
+    ],
+    "cooperations": [
+        "Research on spatial clustering algorithm in geographic flow space",
+        "Graph Neural Networks Applied to Spatial Model Prediction",
+        "Spatio-temporal big data driven human behavior pattern recognition in tourism destinations"
+    ],
+    "interestes": [
+        {
+            "major": "Tourism Geography",
+            "keywords": "Spatiotempero Tourism Demand Modelling"
+        },
+        {
+            "major": "WebGIS",
+            "keywords": "Geographical Big Data Dynamic Visulization Development"
+        },
+        {
+            "major": "GeoSciecnce",
+            "keywords": "Flow Space"
+        },
+        {
+            "major": "Artifical Intelligence",
+            "keywords": "Graph Netrual Network"
+        }
+    ],
+    "papers": [
+        {
+            "year": 2022,
+            "jcr": "Q1",
+            "index": "1st",
+            "title": "Analysis of spatial patterns and driving factors of provincial tourism demand in China",
+            "journal": "Scientific Reports",
+            "if": 4.379,
+            "url": "https://www.nature.com/articles/s41598-022-04895-8"
+        },
+        {
+            "year": 2022,
+            "jcr": "Q2",
+            "index": "1st",
+            "title": "Mapping population on Tibetan Plateau by fusing VIIRS data and nighttime Tencent location-based services data",
+            "journal": "Ecological Indicators",
+            "if": 4.958,
+            "url": "https://www.sciencedirect.com/science/article/pii/S1470160X22003648"
+        },
+        {
+            "year": 2019,
+            "jcr": "Q1",
+            "index": "4th",
+            "title": "Capability of Sentinel-2 MSI data for monitoring and mapping of soil salinity in dry and wet seasons in the Ebinur Lake region, Xinjiang, China",
+            "journal": "Geoderma",
+            "if": 6.114,
+            "url": "https://www.sciencedirect.com/science/article/pii/S0016706119304100"
+        },
+        {
+            "year": 2018,
+            "jcr": "CSCD",
+            "index": "3rd",
+            "title": "Detection of Soil Moisture Content Based on UAV-derived Hyperspectral Imagery and Spectral Index in Oasis Cropland",
+            "journal": "Transactions of the Chinese Society for Agricultural Machinery",
+            "if": 2.591,
+            "url": "https://chn.oversea.cnki.net/KCMS/detail/detail.aspx??sfield=fn&QueryID=0&CurRec=1&recid=&FileName=NYJX201811019&DbName=CJFDLAST2018&DbCode=CJFD&yx=A&pr=&URLID=11.1964.S.20180904.1656.014"
+        },
+        {
+            "year": 2017,
+            "jcr": "CNKI",
+            "index": "1st",
+            "title": "Study on the Synthetic Measurement of Urbanization in the Tianshan North Slope Economic Zone",
+            "journal": "-",
+            "if": "-",
+            "url": "https://chn.oversea.cnki.net/kcms/detail/detail.aspx?filename=1017712811.nh&dbcode=CMFD&dbname=CMFD2018&v="
+        },
+        {
+            "year": 2017,
+            "jcr": "CSCD",
+            "index": "1st",
+            "title": "Dynamic assessment of land ecologic safety of oasis city in arid northwest China：a case of Korla City in Xinjiang",
+            "journal": "Arid Land Geography",
+            "if": 2.022,
+            "url": "https://chn.oversea.cnki.net/KCMS/detail/detail.aspx??sfield=fn&QueryID=16&CurRec=1&recid=&FileName=GHDL201701027&DbName=CJFDLAST2021&DbCode=CJFD&yx=&pr=&URLID="
+        }
+    ],
+    "projects": [
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK1004]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK0401]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK1004]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK0401]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK1004]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK0401]",
+            "role": "Involve"
+        },
+        {
+            "period": "2019-2022",
+            "name": "The Second Tibetan Plateau Scientific Expedition and Research Program (STEP).",
+            "no": "[Grant No. 2019QZKK0401]",
+            "role": "Involve"
+        }
+    ],
+    "co_authors": [
+        {
+            "name": "Jingzhe Wang",
+            "url": "https://www.researchgate.net/profile/Jingzhe-Wang",
+            "img": "https://i1.rgstatic.net/ii/profile.image/745368308416512-1554721061181_Q128/Jingzhe-Wang.jpg"
+        }
+    ]
+}

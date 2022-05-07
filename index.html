@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+  <style>
+    @import "src/main.css";
+  </style>
+</head>
+
+<body>
+
+  <div id="app">
+    <el-container class="el-container-main">
+      <el-header style="padding: 0;">
+        <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
+          <el-menu-item class="text-logo" index="0" ref="logo" :data="name">{{name}}
+          </el-menu-item>
+          <el-menu-item index="4" style="float: right;"><a href="#app">Contact</a></el-menu-item>
+          <el-menu-item index="3" style="float: right;"><a href="#Publications">Publications</a></el-menu-item>
+          <el-menu-item index="2" style="float: right;"><a href="#Projects">Projects</a></el-menu-item>
+          <el-menu-item index="1" style="float: right;"><a href="#app">Homepage</a></el-menu-item>
+        </el-menu>
+      </el-header>
+      <el-container>
+        <el-aside width="630px" class="slider-bio" onclick="null">
+          <el-row style="margin: auto;top: 50%;transform: translate(0, -50%);">
+            <el-col :span="7">
+              <el-avatar ref="bio_photo" class="logo" :data="bio_img" :src="bio_img"></el-avatar>
+            </el-col>
+            <el-col :span="16" :data="cfg">
+              <el-table :show-header="false" :data="tableData" style="width: 100%">
+                <el-table-column prop="column" label="表头" width="90">
+                </el-table-column>
+                <el-table-column prop="content" label="内容" width="auto">
+                </el-table-column>
+              </el-table>
+            </el-col>
+            <el-col :span="1"></el-col>
+          </el-row>
+        </el-aside>
+        <el-main style="margin-top: 20px">
+          <div ref="bio_descr" class="text"></div>
+        </el-main>
+      </el-container>
+      <el-container>
+        <el-aside width="630px" class="slider-frame" onclick="null">
+          <h3 class="content-title">Research Interests</h3>
+          <el-table :show-header="false" :data="interestsData" style="width: 100%">
+            <el-table-column prop="major" label="专业" width="175">
+              <template scope="scope">
+                <i class="el-icon-loading"></i> {{scope.row.major}}
+              </template>
+            </el-table-column>
+            <el-table-column prop="keywords" label="研究领域" width="413">
+            </el-table-column>
+          </el-table>
+          <h3 class="content-title">Lab</h3>
+          <el-table :show-header="false" :data="labData" style="width: 100%">
+            <el-table-column prop="logo" label="实验室标" width="170">
+              <template scope="scope" style="position: relative;">
+                <img class="lab_icon" :src="scope.row.logo"></img>
+              </template>
+            </el-table-column>
+            <el-table-column prop="name" label="实验室名称" width="auto">
+            </el-table-column>
+          </el-table>
+          <h3 class="content-title">Coding & Programming Preference</h3>
+          <ul v-for="(item, index) in skills" :key="index">
+            <li class="text">{{index}}<div>
+                <el-tag style="margin-right: 5px;" v-for="(i, d) in item" :key="d">{{i}}</el-tag>
+              </div>
+            </li>
+          </ul>
+          <h3 class="content-title">Call for Cooperation</h3>
+          <ul v-for="(item, index) in cooperations" :key="index">
+            <li class="text">{{item}}</li>
+          </ul>
+          <h3 class="content-title">Monitoring Datasets</h3>
+          <ul v-for="(item, index) in datasets" :key="index">
+            <li class="text">{{item}}</li>
+          </ul>
+          <h3 class="content-title">Cooperating scholars</h3>
+          <div class="co-au" v-for="item in co_authors" :key="item">
+            <el-avatar  :src="item.img" size="large" :title="item.name">
+            </el-avatar>
+          </div>
+          <hr style="margin: 10px 0;border: none;">
+        </el-aside>
+        <el-main style="margin-top: 20px ;background-color:#fff">
+          <div id="Publications">
+            <h3 class="content-title">Publications</h3>
+            <el-table :show-header="false" fit :data="papersData" style="width: 100%" class="items">
+              <el-table-column prop="year" label="发表年份" width="50">
+              </el-table-column>
+              <el-table-column prop="journal" label="期刊" width="150">
+                <template scope="scope">
+                  <span style="text-decoration: none;"><strong>{{scope.row.journal}}</strong><br>({{scope.row.jcr}} |
+                    IF: {{scope.row.if}})</span>
+                </template>
+              </el-table-column>
+              <el-table-column prop="index" label="作者次序" width="40">
+              </el-table-column>
+              <el-table-column prop="title" label="标题" width="605">
+                <template scope="scope">
+                  <a :href="scope.row.url" target="_blank" style="color: #000;">{{scope.row.title }}</a>
+                </template>
+              </el-table-column>
+            </el-table>
+          </div>
+          <div id="Projects">
+            <h3 class="content-title">Projects</h3>
+            <el-table :show-header="false" fit :data="projectData" style="width: 100%" class="items">
+              <el-table-column prop="period" label="项目周期" width="120">
+              </el-table-column>
+              <el-table-column prop="role" label="角色" width="118">
+              </el-table-column>
+              <el-table-column prop="name" label="项目名称" width="602">
+                <template scope="scope">
+                  <strong>{{scope.row.name}}</strong><br>{{scope.row.no}}
+                </template>
+              </el-table-column>
+            </el-table>
+          </div>
+        </el-main>
+      </el-container>
+      <el-footer class="footer">Powered by Dawud MA.</el-footer>
+    </el-container>
+    
+  </div>
+  <script src="src/main.js"></script>
+
+</body>
+
+</html>
