@@ -10,7 +10,11 @@
   -webkit-text-size-adjust: 100%;
   box-sizing: inherit;
 }
-
+.op-descr {
+  color: #001a3463;
+  font-size: 14px;
+  background: #ecf5ff;
+}
 .text-logo {
   font-size: 28px;
   font-family: Georgia;

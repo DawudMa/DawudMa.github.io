@@ -15,7 +15,8 @@ var vm = new Vue({
             skills: [],
             datasets: [],
             cooperations: [],
-            co_authors: []
+            co_authors: [],
+            opensources: []
         }
     },
     created() {
@@ -41,6 +42,7 @@ var vm = new Vue({
                     vm.name = res.name
                     vm.labData = res.lab
                     vm.skills = res.skills
+                    vm.opensources = res.opensources
                     vm.datasets = res.datasets
                     vm.cooperations = res.cooperations
                     vm.co_authors = res.co_authors
