@@ -87,6 +87,24 @@
     ],
     "papers": [
         {
+            "year": 2024,
+            "jcr": "CSCD",
+            "index": "1st",
+            "title": "新冠肺炎疫情结束后中国游客对“一带一路”倡议60个参与国的出境旅游网络关注度时空特征",
+            "journal": "中国生态旅游",
+            "if": -,
+            "url": "https://www.zgstly.net/CN/abstract/abstract56133.shtml"
+        },
+        {
+            "year": 2024,
+            "jcr": "Q2",
+            "index": "1st",
+            "title": "Detecting potential cooperative network for tourist attractions in a destination using search data",
+            "journal": "PLOS ONE",
+            "if": 3.752,
+            "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298035"
+        },
+        {
             "year": 2022,
             "jcr": "Q1",
             "index": "1st",
