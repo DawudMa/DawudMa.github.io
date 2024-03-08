@@ -118,7 +118,7 @@
               </el-table-column>
               <el-table-column prop="title" label="标题" width="605">
                 <template scope="scope">
-                  <a :href="scope.row.url" target="_blank">{{scope.row.title }}</a>
+                  <a :href="scope.row.url" target="_blank" :row-class-name="({row}) => row.index === '1st' ? 'first-author' : 'co-author-item'">{{scope.row.title }}</a>
                 </template>
               </el-table-column>
             </el-table>
