@@ -105,7 +105,7 @@
         <el-main style="margin-top: 20px ;background-color:#fff">
           <div id="Publications">
             <h3 class="content-title">Publications</h3>
-            <el-table :show-header="false" fit :data="papersData" style="width: 100%" class="items">
+            <el-table :show-header="true" fit :data="papersData" style="width: 100%" class="items" :row-class-name="({row}) => row.index === '1st' ? 'first-author' : 'co-author-item'">
               <el-table-column prop="year" label="发表年份" width="50">
               </el-table-column>
               <el-table-column prop="journal" label="期刊" width="150">
