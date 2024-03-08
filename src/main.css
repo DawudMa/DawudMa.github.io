@@ -103,15 +103,8 @@
   font-size: 12px;
 }
 
-a {
+table a {
   text-decoration: none !important;
-}
-
-:-webkit-any-link {
-}
-:-moz-any-link {
-}
-:any-link {
 }
 
 .el-avatar--large {
