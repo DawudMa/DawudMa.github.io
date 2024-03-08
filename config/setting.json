@@ -88,11 +88,29 @@
     "papers": [
         {
             "year": 2024,
+            "jcr": "Q2",
+            "index": "4th",
+            "title": "Factors influencing sustainable development in Eco-tourism settlements: A comparative analysis",
+            "journal": "Heliyon",
+            "if": 4,
+            "url": "https://doi.org/10.1016/j.heliyon.2024.e26454"
+        },
+        {
+            "year": 2024,
+            "jcr": "Q1",
+            "index": "5th",
+            "title": "Assessment of tourism socio-ecological system resilience in arid areas: A case study of Xinjiang, China",
+            "journal": "Ecological Indicators",
+            "if": 6.9,
+            "url": "https://doi.org/10.1016/j.ecolind.2024.111748"
+        },
+        {
+            "year": 2024,
             "jcr": "CSCD",
             "index": "1st",
             "title": "新冠肺炎疫情结束后中国游客对“一带一路”倡议60个参与国的出境旅游网络关注度时空特征",
             "journal": "中国生态旅游",
-            "if": 0,
+            "if": "-",
             "url": "https://www.zgstly.net/CN/abstract/abstract56133.shtml"
         },
         {
@@ -103,6 +121,15 @@
             "journal": "PLOS ONE",
             "if": 3.752,
             "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298035"
+        },
+        {
+            "year": 2023,
+            "jcr": "Q2",
+            "index": "5th",
+            "title": "Spatial–Temporal Characteristics of Human Thermal Comfort in Xinjiang: Based on the Universal Thermal Climate Index from 1981 to 2019",
+            "journal": "Land",
+            "if": 3.9,
+            "url": https://www.mdpi.com/2073-445X/12/10/1864"
         },
         {
             "year": 2022,
