@@ -107,9 +107,11 @@ a {
   text-decoration: none !important;
 }
 
-a::-webkit-any-link {
-    color: inherit; 
-    text-decoration: inherit; 
+:-webkit-any-link {
+}
+:-moz-any-link {
+}
+:any-link {
 }
 
 .el-avatar--large {
