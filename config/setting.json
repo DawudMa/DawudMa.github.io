@@ -2,13 +2,13 @@
     "name": "MA Xuankai",
     "bio_img": "https://i1.rgstatic.net/ii/profile.image/754136731615235-1556811616787_Q128/Ma-Xuankai.jpg",
     "Email": "maxuankai20@mails.ucas.ac.cn",
-    "affiliation": "Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences",
-    "address": "No.818, Beijing Road, Urumqi, Xinjiang, China",
+    "affiliation": "Urumqi Urban Institute of Geotechnical Investigation Surveying and Mapping",
+    "address": "Urumqi, Xinjiang, China",
     "major": "Human Geography",
     "bio_descr": "MA Xuankai is currently pursuing a Ph.D. in Human Geography at the University of Chinese Academy of Sciences and a Special Research Assistant at the Chinese Academy of Sciences.<br>He has expertise in the dynamic monitoring of tourism demand based on geographic big data, spatial analysis, and modeling. He has developed software to construct population distribution models through long time series Tencent location big data sets and dynamically monitor population distribution over large areas using VIIRS nighttime remote sensing data with LBS data to provide fundamental support for large-scale monitoring of tourism behavior. He has published two peer-reviewed journal articles on tourism demand and population modeling, including one article in a Q1 journal and one paper in a Q2 journal. He is majoring in the direction of tourism information flow theoretical system research. He actively contributes to numerous national science research projects in spatiotemporal big data mining and analysis, WebGIS visualization development, GIS map service development, etc.",
     "lab": [
         {
-            "name": "Xinjiang Tourism Academy",
+            "name": "Basic Geographic Information Research Lab",
             "logo": "img/lab_logo.png"
         }
     ],
@@ -16,8 +16,7 @@
         "Program": [
             "ArcGIS",
             "QGIS",
-            "ENVI",
-            "Blender"
+            "ENVI"
         ],
         "Coding": [
             "Python",
@@ -30,23 +29,35 @@
             "Cesium",
             "kepler.gl",
             "VUE",
-            "ElementUI"
+            "ElementPlus"
         ],
         "Library": [
             "ArcPy",
             "GeoPandas",
             "Pandas",
+            "Rasterio",
+            "ggplot",
+            "shaply",
+            "Fiona",
+            "Numpy",
+            "Scipy",
             "NetworkX",
             "PyG",
             "DGL",
             "sklearn",
-            "GDAL"
+            "GDAL",
+            "Pytorch",
+            "YOLO"
         ],
         "Methdology": [
-            "GD",
+            "Geodetector",
             "GWR/GTWR",
-            "RF",
-            "GNN",
+            "Wavelets",
+            "Pysal",
+            "Random Forest",
+            "Sharp",
+            "Transformer",
+            "Graph Neural Network",
             "Complex Network"
         ]
     },
