@@ -88,6 +88,33 @@
     "papers": [
         {
             "year": 2024,
+            "jcr": "Q1",
+            "index": "1st",
+            "title": "Assessing the reactions of tourist markets to reinstated travel restrictions in the destination during the post-COVID-19 phase",
+            "journal": "Scientific Reports",
+            "if": 3.8,
+            "url": "https://doi.org/10.1038/s41598-024-66459-2"
+        },
+        {
+            "year": 2024,
+            "jcr": "Q1",
+            "index": "1st",
+            "title": "Detecting potential cooperative network for tourist attractions in a destination using search data",
+            "journal": "PLOS ONE",
+            "if": 2.9,
+            "url": "https://doi.org/10.1371/journal.pone.0298035"
+        },
+        {
+            "year": 2024,
+            "jcr": "Q1",
+            "index": "3rd",
+            "title": "Recreational Ecosystem Services in the Qinghai–Tibet Plateau National Park Group: Mapping, Monetization, and Evaluation",
+            "journal": "Land",
+            "if": 3.2,
+            "url": "https://doi.org/10.3390/land13050682"
+        },
+        {
+            "year": 2024,
             "jcr": "Q2",
             "index": "4th",
             "title": "Factors influencing sustainable development in Eco-tourism settlements: A comparative analysis",
